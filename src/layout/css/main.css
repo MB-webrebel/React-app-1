@@ -1,0 +1,38 @@
+html,
+body,
+#root,
+#my-app {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: Roboto;
+}
+
+#my-app {
+  display: flex;
+  flex-direction: column;
+}
+
+#middle-box {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+/* Scrollbar styling from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

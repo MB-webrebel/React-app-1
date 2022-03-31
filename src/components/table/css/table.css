@@ -1,0 +1,26 @@
+table {
+  width: 100%;
+  margin: 5px;
+}
+
+td,
+th {
+  padding: 5px;
+  border: 1px solid #ccc;
+  text-align: left;
+  width: 50%;
+}
+
+th {
+  background-color: #1976d2;
+  color: #fff;
+}
+
+.commands {
+  border: none;
+  display: flex;
+}
+
+.commands svg {
+  cursor: pointer;
+}

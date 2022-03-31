@@ -1,0 +1,7 @@
+div.form-content {
+  margin: 0 10px;
+}
+
+div.form-content > * + * {
+  margin: 12px 0;
+}
